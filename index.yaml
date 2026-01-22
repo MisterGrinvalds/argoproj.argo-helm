@@ -27825,6 +27825,33 @@ entries:
   argo-events:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argo-events to v1.9.10
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.9.10
+    created: "2026-01-22T00:09:49.414953243Z"
+    description: A Helm chart for Argo Events, the event-driven workflow automation
+      framework
+    digest: bcb0b2f02020c0c02382b96764e9fb84064bb4be8df623bf5223227230351307
+    home: https://github.com/argoproj/argo-helm
+    icon: https://avatars.githubusercontent.com/u/30269780?s=200&v=4
+    keywords:
+    - argoproj
+    - argo-events
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - https://github.com/argoproj/argo-helm/releases/download/argo-events-2.4.20/argo-events-2.4.20.tgz
+    version: 2.4.20
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Fixed DEBUG_LOG environment variable documentation to use LOG_LEVEL instead
       artifacthub.io/signKey: |
@@ -41088,4 +41115,4 @@ entries:
     urls:
     - argocd-notifications-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-21T11:50:06.346513678Z"
+generated: "2026-01-22T00:09:49.418425535Z"
